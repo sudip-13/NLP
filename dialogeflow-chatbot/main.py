@@ -14,7 +14,7 @@ app = FastAPI()
 async def start():
    
 
-    return {"message": "gand* marao"}
+    return {"message": "good morning"}
 @app.post("/")
 async def root(req: Request):
     payload = await req.json()
